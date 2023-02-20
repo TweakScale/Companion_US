@@ -1,4 +1,7 @@
-// Cleaning up any reminiscent for deprecated (default) TweakScale patches for Universal Storage II
+//			****************************
+//			**  Universal Storage II  **
+//			**   TweakScale Support   **
+//			****************************
 //
 //		This file is part of TweakScaleCompanion_US
 //			© 2023 LisiasT : http://lisias.net <support@lisias.net>
@@ -19,23 +22,17 @@
 //		You should have received a copy of the GNU General Public License 2.0
 //		along with TweakScaleCompanion_US. If not, see <https://www.gnu.org/licenses/>.
 //
+// https://forum.kerbalspaceprogram.com/index.php?/topic/68043-universal-storage/
+//		https://spacedock.info/mod/329/Universal%20Storage
+//
 
-@PART[USACD1500,USACDLarge,USACDMedium,USACDSmall,USACDTiny,USAccelGravWedge,USAdaptorShroud0625,USAdaptorShroud1500,USAdaptorShroud1875,USAerozineWedge]:BEFORE[TweakScaleCompanion_US]
-{
-	-MODULE[TweakScale],* {}
-}
+// ** Pods **
 
-@PART[USBatteryWedge,USCylindricalShroud0625,USCylindricalShroud125,USCylindricalShroud250,USDoubleProbeCore,USElektron,USFluidSpectroWedge,USFuelCellMedium,USFuelCellSmal,USGooBayWedge]:BEFORE[TweakScaleCompanion_US]
+@PART[USDoubleProbeCore]:NEEDS[TweakScale,UniversalStorage]:FOR[TweakScaleCompanion_US] // Universal Storage: Remote Operations System for UniversalStorageII >= 1.3.1.10
 {
-	-MODULE[TweakScale],* {}
-}
-
-@PART[USHexcore,USHydrazineWedge,USHydrogenWedge,USMatBayWedge,USOctocore,USOxygenWedge,USPenticore,USQuadcore,USRTGWedge,USRadialTanks]:BEFORE[TweakScaleCompanion_US]
-{
-	-MODULE[TweakScale],* {}
-}
-
-@PART[USThermoBaroWedge,USWaterWedge]:BEFORE[TweakScaleCompanion_US]
-{
-	-MODULE[TweakScale],* {}
+	#@TWEAKSCALEBEHAVIOR[Science]/MODULE[TweakScale] { }
+	%MODULE[TweakScale]
+	{
+		type = UniversalStorageEdge
+	}
 }
