@@ -5,18 +5,18 @@ Adds (up to date) TweakScale /L patches for Universal Storage I & II.
 
 ## In a Hurry
 
-* [Source](https://github.com/net-lisias-ksp/TweakScaleCompanion_US)
-	+ [Issue Tracker](https://github.com/net-lisias-ksp/TweakScaleCompanion_US/issues)
+* [Source](https://github.com/TweakScale/Companion_US)
+	+ [Issue Tracker](https://github.com/TweakScale/Companion_US/issues)
 * Documentation
 	+ [Forum](https://forum.kerbalspaceprogram.com/index.php?/topic/192216-tweakscale-companion-program/)
-	+ [Project's README](https://github.com/net-lisias-ksp/TweakScaleCompanion_US/blob/master/README.md)
-	+ [Install Instructions](https://github.com/net-lisias-ksp/TweakScaleCompanion_US/blob/master/INSTALL.md)
+	+ [Project's README](https://github.com/TweakScale/Companion_US/blob/master/README.md)
+	+ [Install Instructions](https://github.com/TweakScale/Companion_US/blob/master/INSTALL.md)
 	+ [Change Log](./CHANGE_LOG.md)
 	+ [Known Issues](./KNOWN_ISSUES.md)
 * Official Distribution Sites:
-	+ [Source and Binaries](https://github.com/net-lisias-ksp/TweakScaleCompanion_US) on GitHub.
-	+ [Latest Release](https://github.com/net-lisias-ksp/TweakScaleCompanion_US/releases)
-		- [Binaries](https://github.com/net-lisias-ksp/TweakScaleCompanion_US/Archive)
+	+ [Source and Binaries](https://github.com/TweakScale/Companion_US) on GitHub.
+	+ [Latest Release](https://github.com/TweakScale/Companion_US/releases)
+		- [Binaries](https://github.com/TweakScale/Companion_US/Archive)
 
 
 ## Description
@@ -66,11 +66,12 @@ See [NOTICE](./NOTICE) for further copyright and trademarks notices.
 ## References
 
 * TweakScale /L ([LisiasT](https://forum.kerbalspaceprogram.com/index.php?/profile/187168-lisias/))
+	+ [Homepage](http://ksp.lisias.net/add-ons/TweakScale) on L Aerospace
+	+ [Reddit](https://www.reddit.com/r/TweakScale/)
 	+ [Forum](https://forum.kerbalspaceprogram.com/index.php?/topic/179030-*/)
 	+ [CurseForge](https://kerbal.curseforge.com/projects/tweakscale)
 	+ [SpaceDock](https://spacedock.info/mod/127/TweakScale)
-	+ [Homepage](http://ksp.lisias.net/add-ons/TweakScale) on L Aerospace
-	+ [GitHub](https://github.com/net-lisias-ksp/TweakScale)
+	+ [GitHub](https://github.com/TweakScale/TweakScale)
 * Universal Storage ([Paulo Kingtiger](https://forum.kerbalspaceprogram.com/index.php?/profile/57455-paul-kingtiger/))
 	+ [Forum](https://forum.kerbalspaceprogram.com/index.php?/topic/68043-universal-storage/)
 	+ [SpaceDock](https://spacedock.info/mod/329/Universal%20Storage)
